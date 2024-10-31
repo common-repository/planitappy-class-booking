@@ -1,0 +1,34 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .responsive_iframe_calendar {
+    position: relative;
+   /* padding-bottom: 56.25%;
+    padding-top: 30px; 
+    height: 600px; */
+    overflow: hidden;
+    display:block;
+}
+.responsive_iframe_calendar iframe, 
+.responsive_iframe_calendar object,
+.responsive_iframe_calendar embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 75%;
+    height: 75%;
+    max-width:90%;
+    max-height:90%;
+    margin: auto;
+    margin-right: auto;
+	margin-left: auto;
+	margin-bottom:auto;
+	display:block;
+}
+
+
+
